@@ -1,0 +1,4 @@
+
+
+spawnSync /usr/bin/node ETIMEDOUT
+Exit: 1

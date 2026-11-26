@@ -1,0 +1,17 @@
+{
+  "name": "gtr-spike-sandbox",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.6.1",
+    "@langchain/core": "1.5.1",
+    "@langchain/langgraph": "1.7.5",
+    "@langchain/langgraph-checkpoint-sqlite": "1.1.1",
+    "@types/node": "26.6.10",
+    "better-sqlite3": "13.2.0",
+    "sqlite-vec": "0.1.9",
+    "typescript": "7.0.2",
+    "zod": "4.6.7"
+  }
+}
