@@ -1,13 +1,13 @@
 # Remaining spike execution plan
 
-B = blocked against original criteria; P = favorable partial evidence. No full spike passed. The dependency column is a proposed scheduling aid, not a validated DAG; SPK-001 may be closed in stages so downstream dependency experiments can run without circular gating.
+B = blocked against original criteria; P = favorable partial evidence. Fully validated: 0 / Partial evidence: 7 / Blocked: 13 / Partial spikes: 001, 004, 006, 007, 009, 014, 017. All other spikes remain blocked. The dependency column is a proposed scheduling aid, not a validated DAG; SPK-001 may be closed in stages so downstream dependency experiments can run without circular gating.
 
 | Spike | Area | State | Prerequisite | Closure experiment | Depends on |
 |---|---|---|---|---|---|
-| SPK-001 | Platform foundation | B | Network-enabled Node target, npm/pnpm, CI | Install pinned actual dependency set on three OS targets; log versions and licenses | — |
+| SPK-001 | Platform foundation | P | Network-enabled Node target, npm/pnpm, CI | Install pinned actual dependency set on three OS targets; log versions and licenses | — |
 | SPK-002 | Pi runtime | B | Actual Pi SDK/RPC | Delegate, restrict tools, stream, cancel, resume and validate structured output | 001 |
 | SPK-003 | TUI | B | Pi runtime and real terminals | Banner/sidebar resize, extension compatibility and startup measurements | 002 |
-| SPK-004 | LangGraph | B | Actual LangGraph and checkpoint binding | Persist approval, crash/replay, bounded rework, cancellation and final completion | 001,007 |
+| SPK-004 | LangGraph | P | Actual LangGraph and checkpoint binding | Persist approval, crash/replay, bounded rework, cancellation and final completion | 001,007 |
 | SPK-005 | Declarative workflows | B | Actual YAML and LangGraph | Reject invalid/empty graph; mandatory approval gates cannot be removed | 004 |
 | SPK-006 | Daemon / IPC | P | Target OS, independent clients | Compare CLI; durable ownership, auth, bounded requests, idle shutdown and restart | 001 |
 | SPK-007 | SQLite | P | Target Node and actual vector/checkpoint dependencies | Compare bindings, WAL/migrations/crash and extensions on matrix | 001 |
@@ -26,8 +26,8 @@ B = blocked against original criteria; P = favorable partial evidence. No full s
 | SPK-020 | Walking skeleton | B | All required actual integration evidence | Real vertical SDD with approval, worktree, memory, recovery and durable completion | 002–019 |
 
 ## Execution waves
-1. Restore registry and artifact access; verify upstream packages and licenses; establish target Node baseline and CI access. Do not bypass corporate proxies or disable TLS verification.
-2. Real core: Pi, SQLite binding, LangGraph, local IPC, worktrees, Graphify provisioning. Resolve V-01/V-03/V-04/V-10 in affected prototypes.
+1. npm connectivity was restored on WSL2, but cross-platform installation and supply-chain validation remain outstanding. Verify registry/artifact access on remaining native targets, upstream packages, licenses, integrity and install scripts; establish the target Node baseline and Windows/Linux/macOS CI matrix. Do not bypass corporate proxies or disable TLS verification.
+2. Real core: diagnose the unresolved Pi timeout (`ETIMEDOUT`, exit 1; SPK-002 remains blocked), SQLite binding, LangGraph, local IPC, worktrees, Graphify provisioning. Reproduce corrected SQLite-vector/LangGraph successes with committed raw logs: they are reported but not independently reproduced from committed raw evidence. Resolve direct `better-sqlite3` 13.2.0 versus nested 12.11.1 (`@langchain/langgraph-checkpoint-sqlite` requires `^12.10.0`). Resolve V-01/V-03/V-04/V-10 in affected prototypes.
 3. Real memory and provider integration: embeddings, decision lifecycle, provider auth, Copilot, adaptive router; Ponytail, TUI, RTK, declarative workflows and hosts as dependencies permit.
 4. Context and quality benchmarks; security, distribution, Azure DevOps independent-failure tests; Windows/Linux/macOS matrix.
 5. Real walking skeleton; independent verification pass; human approval and superseding archive.
