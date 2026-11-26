@@ -1,0 +1,1 @@
+{"name":"gtr-ai-spike-local-smoke","version":"0.0.1","bin":{"gtr-spike-smoke":"cli.cjs"},"files":["cli.cjs"]}

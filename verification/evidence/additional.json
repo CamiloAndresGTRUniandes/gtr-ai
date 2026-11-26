@@ -1,0 +1,26 @@
+{
+  "emptyNodeStartup": {
+    "unit": "ms",
+    "n": 30,
+    "median": 24.74653699999999,
+    "p95": 45.893434,
+    "note": "empty Node subprocess, not TUI"
+  },
+  "persistedApprovalSurvivesKill": true,
+  "minimalIpcServerMemory": {
+    "rss": 25149440,
+    "heapTotal": 5832704,
+    "heapUsed": 4559768,
+    "external": 1742122,
+    "arrayBuffers": 10515
+  },
+  "crossProcessIpc": true,
+  "exactDedup": {
+    "beforeBytes": 21751,
+    "afterBytes": 4351,
+    "beforeChunks": 100,
+    "afterChunks": 20,
+    "note": "same JSON serialization; synthetic duplicates; no model tokens measured"
+  },
+  "syntheticRankFusion": true
+}

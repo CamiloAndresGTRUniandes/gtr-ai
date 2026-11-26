@@ -1,0 +1,16 @@
+
+file:///mnt/c/tst-lab/GTR-AI/.spike-workspaces/linux-x64/node_modules/@langchain/langgraph/dist/graph/state.js:350
+			if (key in this.channels) throw new Error(`${key} is already being used as a state attribute (a.k.a. a channel), cannot also be used as a node name.`);
+			                                ^
+
+Error: research is already being used as a state attribute (a.k.a. a channel), cannot also be used as a node name.
+    at StateGraph.addNode (file:///mnt/c/tst-lab/GTR-AI/.spike-workspaces/linux-x64/node_modules/@langchain/langgraph/dist/graph/state.js:350:36)
+    at file:///mnt/c/tst-lab/GTR-AI/.spike-workspaces/linux-x64/langgraph.mjs:2:215
+    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
+    at async node:internal/modules/esm/loader:647:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.22.3
+
+
+Exit: 1

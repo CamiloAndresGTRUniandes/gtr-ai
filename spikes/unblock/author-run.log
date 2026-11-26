@@ -1,0 +1,5 @@
+sqlite-native: PASS
+Node 24 LTS is the proposed baseline; this run is exploratory.
+registry-ping: FAIL
+Registry inaccessible; external integrations BLOCKED
+Evidence: /mnt/data/gtr-unblock/.spike-workspaces/linux-x64/evidence/5c75d1a9-52b7-4d52-961d-f82fac9f4c79

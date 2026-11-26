@@ -1,0 +1,36 @@
+TAP version 13
+# (node:2386) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: Finding: paid session affinity outranks eligible subscription when paid is authorized
+ok 1 - Finding: paid session affinity outranks eligible subscription when paid is authorized
+  ---
+  duration_ms: 0.791632
+  type: 'test'
+  ...
+# Subtest: Finding: missing approval metadata and empty graph are accepted by prototype validator
+ok 2 - Finding: missing approval metadata and empty graph are accepted by prototype validator
+  ---
+  duration_ms: 0.791239
+  type: 'test'
+  ...
+# Subtest: Finding: path guard throws for new file rather than supporting a write target
+ok 3 - Finding: path guard throws for new file rather than supporting a write target
+  ---
+  duration_ms: 1.17883
+  type: 'test'
+  ...
+# Subtest: Additional positive evidence: competing approval CAS permits exactly one update
+ok 4 - Additional positive evidence: competing approval CAS permits exactly one update
+  ---
+  duration_ms: 96.614286
+  type: 'test'
+  ...
+1..4
+# tests 4
+# suites 0
+# pass 4
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 176.958251

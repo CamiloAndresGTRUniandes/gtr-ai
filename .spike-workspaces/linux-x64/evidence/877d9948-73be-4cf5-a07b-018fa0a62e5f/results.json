@@ -1,0 +1,95 @@
+[
+  {
+    "name": "sqlite-native",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "registry-ping",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-typescript",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-zod",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-_types_node",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-_earendil-works_pi-coding-agent",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-_langchain_core",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-_langchain_langgraph",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-_langchain_langgraph-checkpoint-sqlite",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-better-sqlite3",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "metadata-sqlite-vec",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "installation",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "dependency-tree",
+    "status": "PASS",
+    "exit": 0
+  },
+  {
+    "name": "sqlite-vector",
+    "status": "FAIL",
+    "exit": 1
+  },
+  {
+    "name": "pi",
+    "status": "FAIL",
+    "exit": 1
+  },
+  {
+    "name": "langgraph-start-approve",
+    "status": "FAIL",
+    "exit": 1
+  },
+  {
+    "name": "langgraph-approve",
+    "status": "BLOCKED"
+  },
+  {
+    "name": "langgraph-start-reject",
+    "status": "FAIL",
+    "exit": 1
+  },
+  {
+    "name": "langgraph-reject",
+    "status": "BLOCKED"
+  }
+]

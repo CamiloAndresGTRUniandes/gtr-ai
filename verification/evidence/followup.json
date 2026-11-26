@@ -1,0 +1,14 @@
+{
+  "node": "v22.16.0",
+  "platform": "linux",
+  "arch": "x64",
+  "benchmarks": {
+    "toyHybridFusion": {
+      "n": 1000,
+      "unit": "ms",
+      "median": 0.02487899999999854,
+      "p95": 0.05828699999997866,
+      "max": 0.9259820000000047
+    }
+  }
+}

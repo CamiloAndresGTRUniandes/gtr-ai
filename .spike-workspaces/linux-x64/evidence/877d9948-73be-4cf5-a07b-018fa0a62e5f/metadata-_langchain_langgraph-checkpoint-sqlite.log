@@ -1,0 +1,15 @@
+{
+  "version": "1.1.1",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@langchain/core": "^1.1.44",
+    "@langchain/langgraph-checkpoint": "^1.2.0"
+  }
+}
+
+
+
+Exit: 0

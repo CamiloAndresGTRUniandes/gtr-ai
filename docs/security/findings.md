@@ -1,0 +1,3 @@
+# Preliminary security findings
+
+Existing-path realpath containment rejects a symlink escape in one synthetic test. It is not a sandbox and does not address race conditions, file creation or subprocess access. Mock reconciliation rejects unapproved writes and uncertain outcomes; it is not a durable external transaction. Socket token comparison rejects an incorrect token in a local fixture; peer identity, ACLs, secret transport and DoS remain untested. Git worktrees protect separate Git changes in the tested scenario but do not enforce filesystem or network permissions. Prompt injection, plugin isolation, real credential handling, dependency integrity and cross-project adversarial leakage remain open. No production security assurance is claimed.

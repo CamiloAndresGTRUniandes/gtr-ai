@@ -1,0 +1,78 @@
+TAP version 13
+# (node:1897) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: SPK-001 native runtime inventory
+ok 1 - SPK-001 native runtime inventory
+  ---
+  duration_ms: 2.110925
+  type: 'test'
+  ...
+# Subtest: SPK-004 mock phase gates, bounded rework and persisted recovery
+ok 2 - SPK-004 mock phase gates, bounded rework and persisted recovery
+  ---
+  duration_ms: 5.506639
+  type: 'test'
+  ...
+# Subtest: SPK-005 declarative dependency validation (JSON objects only)
+ok 3 - SPK-005 declarative dependency validation (JSON objects only)
+  ---
+  duration_ms: 1.400575
+  type: 'test'
+  ...
+# Subtest: SPK-006 Unix socket two clients, token authentication and duplicate request suppression
+ok 4 - SPK-006 Unix socket two clients, token authentication and duplicate request suppression
+  ---
+  duration_ms: 68.147085
+  type: 'test'
+  ...
+# Subtest: SPK-007 SQLite WAL visibility, rollback, process crash recovery and reopen
+ok 5 - SPK-007 SQLite WAL visibility, rollback, process crash recovery and reopen
+  ---
+  duration_ms: 53.104498
+  type: 'test'
+  ...
+# Subtest: SPK-008/009 FTS5 exact lookup, scoped retrieval, active decisions
+ok 6 - SPK-008/009 FTS5 exact lookup, scoped retrieval, active decisions
+  ---
+  duration_ms: 2224.282331
+  type: 'test'
+  ...
+# Subtest: SPK-010/012 deterministic routing with authorized accounts, affinity and paid opt-in
+ok 7 - SPK-010/012 deterministic routing with authorized accounts, affinity and paid opt-in
+  ---
+  duration_ms: 74.650958
+  type: 'test'
+  ...
+# Subtest: SPK-014 deterministic context deduplication and budget fallback
+ok 8 - SPK-014 deterministic context deduplication and budget fallback
+  ---
+  duration_ms: 1.637216
+  type: 'test'
+  ...
+# Subtest: SPK-017 actual Git worktrees: parallel writes, conflict and dirty-file preservation
+ok 9 - SPK-017 actual Git worktrees: parallel writes, conflict and dirty-file preservation
+  ---
+  duration_ms: 189.34068
+  type: 'test'
+  ...
+# Subtest: SPK-019 path containment, symlink escape and external operation reconciliation mock
+ok 10 - SPK-019 path containment, symlink escape and external operation reconciliation mock
+  ---
+  duration_ms: 1.408028
+  type: 'test'
+  ...
+# Subtest: SPK-020 mock vertical skeleton: retrieve, route, gates, persist and verify
+ok 11 - SPK-020 mock vertical skeleton: retrieve, route, gates, persist and verify
+  ---
+  duration_ms: 0.590753
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2723.541968

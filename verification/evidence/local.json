@@ -1,0 +1,67 @@
+{
+  "environment": {
+    "node": "v22.16.0",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "logicalCpus": 5,
+    "totalRamBytes": 6236844032,
+    "sqlite": "3.49.1",
+    "fts5": 1
+  },
+  "benchmarks": {
+    "ipcRoundTrip": {
+      "unit": "ms",
+      "n": 200,
+      "median": 0.23236499999998728,
+      "p95": 0.7135940000000005
+    },
+    "fts5Selective10k": {
+      "unit": "ms",
+      "n": 1000,
+      "min": 0.026391999999987092,
+      "median": 0.028431000000011863,
+      "p95": 0.04629999999997381,
+      "max": 0.2605960000000209
+    },
+    "fts5Broad10k": {
+      "unit": "ms",
+      "n": 200,
+      "min": 5.952274000000216,
+      "median": 6.384518999999727,
+      "p95": 7.383982999999944,
+      "max": 8.736178999999993
+    },
+    "routingFourAccounts": {
+      "unit": "ms",
+      "n": 10000,
+      "min": 0.00041599999985919567,
+      "median": 0.0007700000001023,
+      "p95": 0.0015359999997599516,
+      "max": 0.5515399999999318
+    },
+    "routing100Accounts": {
+      "unit": "ms",
+      "n": 10000,
+      "min": 0.0036989999998695566,
+      "median": 0.004014999999981228,
+      "p95": 0.006011999999827822,
+      "max": 1.9878630000002886
+    }
+  },
+  "context": {
+    "inputSerializedBytes": 24346,
+    "uniqueChunks": 20,
+    "selectedChunks": 7,
+    "selectedTextBytes": 1498,
+    "unit": "bytes, not tokens; different serialization scopes"
+  },
+  "worktreeParallelWriteMs": 56.76238400000011,
+  "processMemory": {
+    "rss": 44068864,
+    "heapTotal": 16580608,
+    "heapUsed": 8589640,
+    "external": 2458716,
+    "arrayBuffers": 17088
+  }
+}
