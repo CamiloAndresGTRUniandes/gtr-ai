@@ -1,2 +1,0 @@
-import test from 'node:test';import assert from 'node:assert/strict';
-test('Pi SDK import and in-memory session manager (no model calls)',async()=>{const sdk=await import('@earendil-works/pi-coding-agent');console.log(Object.keys(sdk).sort());assert.equal(typeof sdk.createAgentSession,'function');assert.equal(typeof sdk.SessionManager.inMemory,'function');assert.ok(sdk.SessionManager.inMemory());});
